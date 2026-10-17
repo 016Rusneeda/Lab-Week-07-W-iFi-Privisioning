@@ -1,0 +1,25 @@
+# ESP-IDF Build & Configuration Outputs
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# Python Virtual Environments & Cache
+.env/
+venv/
+env/
+__pycache__/
+
+# IDEs and Editors
+.vscode/
+*.code-workspace
+.idea/
+*.suo
+*.sln
+*.sw?
+
+# OS Generated Files
+.DS_Store
+._*
+Thumbs.db

@@ -1,0 +1,7 @@
+menu "Example Configuration"
+    config EXAMPLE_RESET_PROVISIONED
+        bool "Reset Provisioned state (Erase credentials)"
+        default n
+        help
+            If checked, the device will erase NVS and reset provisioned state on boot.
+endmenu
